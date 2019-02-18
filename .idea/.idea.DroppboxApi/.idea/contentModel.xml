@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\vmadmin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vmadmin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_DroppboxApi.-624890682.00" t="ExcludeRecursive" />
+    <e p="C:\Users\vmadmin\Desktop\DroppboxApi" t="IncludeRecursive">
+      <e p="DroppboxApi.csproj" t="IncludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

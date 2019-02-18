@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\vmadmin\\Desktop\\DroppboxApi\\DroppboxApi.csproj",
+    "projectName": "DroppboxApi",
+    "projectPath": "C:\\Users\\vmadmin\\Desktop\\DroppboxApi\\DroppboxApi.csproj",
+    "outputPath": "C:\\Users\\vmadmin\\Desktop\\DroppboxApi\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "target": "Package",
+          "version": "(, )"
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Pomelo.EntityFrameworkCore.MySql": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        }
+      }
+    }
+  }
+}
