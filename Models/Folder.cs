@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DroppboxApi.Models
 {
@@ -6,7 +8,12 @@ namespace DroppboxApi.Models
     {
         public long id{get;set;}
         public string name{get;set;}
+        [ForeignKey("Folder")]
+        public long  folerId{get;set;}
 
-        public int  folerId{get;set;}
+        [ForeignKey("Organization")]
+        public long  organizationId{get;set;}
+
+        //public ICollection<File> Files {get;set;}
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5893b77-fa71-4c84-82e0-c2b8e1bcc4c5" name="Default Changelist" comment="" />
+    <list default="true" id="f5893b77-fa71-4c84-82e0-c2b8e1bcc4c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Controllers/DroppboxController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/DroppboxController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/DroppboxController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="212" column="62" lean-forward="true" selection-start-line="212" selection-start-column="62" selection-end-line="212" selection-end-column="62" />
+            <state relative-caret-position="318">
+              <caret line="305" column="26" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -103,12 +105,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Models/File.cs" />
-        <option value="$PROJECT_DIR$/Controllers/DroppboxController.cs" />
         <option value="$PROJECT_DIR$/Models/Organization.cs" />
+        <option value="$PROJECT_DIR$/Controllers/DroppboxController.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
     <option name="width" value="1940" />
     <option name="height" value="955" />
@@ -178,12 +180,12 @@
       <updated>1550131711343</updated>
       <workItem from="1550131714120" duration="2188000" />
       <workItem from="1550407369760" duration="1232000" />
-      <workItem from="1550511492250" duration="1997000" />
+      <workItem from="1550511492250" duration="2134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5417000" />
+    <option name="totallyTimeSpent" value="5554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,7 +197,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="934" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="934" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -296,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/DroppboxController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="212" column="62" lean-forward="true" selection-start-line="212" selection-start-column="62" selection-end-line="212" selection-end-column="62" />
+        <state relative-caret-position="318">
+          <caret line="305" column="26" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="26" />
         </state>
       </provider>
     </entry>

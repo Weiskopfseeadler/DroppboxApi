@@ -17,7 +17,7 @@ namespace DroppboxApi.Migrations
                     typ = table.Column<string>(nullable: true),
                     path = table.Column<string>(nullable: true),
                     size = table.Column<int>(nullable: false),
-                    organizationId = table.Column<int>(nullable: false)
+                    folderId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -31,7 +31,8 @@ namespace DroppboxApi.Migrations
                     id = table.Column<long>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     name = table.Column<string>(nullable: true),
-                    folerId = table.Column<int>(nullable: false)
+                    folerId = table.Column<long>(nullable: false),
+                    organizationId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -58,8 +59,8 @@ namespace DroppboxApi.Migrations
                 {
                     id = table.Column<long>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    userId = table.Column<int>(nullable: false),
-                    organisationId = table.Column<int>(nullable: false)
+                    userId = table.Column<long>(nullable: false),
+                    organisationId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {

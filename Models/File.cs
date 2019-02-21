@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DroppboxApi.Models
 {
@@ -10,6 +11,7 @@ namespace DroppboxApi.Models
         public string typ{get;set;}
         public string path{get;set;}
         public int size{get;set;}
-        public int organizationId{get;set;}
+         [ForeignKey("Folder")]
+        public long folderId{get;set;}
     }
 }

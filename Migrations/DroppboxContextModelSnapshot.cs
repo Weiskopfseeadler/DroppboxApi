@@ -21,9 +21,9 @@ namespace DroppboxApi.Migrations
                     b.Property<long>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("name");
+                    b.Property<long>("folderId");
 
-                    b.Property<int>("organizationId");
+                    b.Property<string>("name");
 
                     b.Property<string>("path");
 
@@ -41,9 +41,11 @@ namespace DroppboxApi.Migrations
                     b.Property<long>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("folerId");
+                    b.Property<long>("folerId");
 
                     b.Property<string>("name");
+
+                    b.Property<long>("organizationId");
 
                     b.HasKey("id");
 
@@ -83,9 +85,9 @@ namespace DroppboxApi.Migrations
                     b.Property<long>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("organisationId");
+                    b.Property<long>("organisationId");
 
-                    b.Property<int>("userId");
+                    b.Property<long>("userId");
 
                     b.HasKey("id");
 
