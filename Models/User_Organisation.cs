@@ -8,7 +8,7 @@ namespace DroppboxApi.Models
         public long id{get;set;}
         [ForeignKey("User")]
         public long userId{get;set;}
-         [ForeignKey("Organization")]
+        [ForeignKey("Organization")]
         public long organisationId{get;set;}
     }
 }

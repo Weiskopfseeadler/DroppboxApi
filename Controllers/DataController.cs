@@ -81,9 +81,9 @@ namespace DroppboxApi.Controllers
         }
 //Postman Test OK
         [HttpGet("FilesOfFolder/{id}")]
-        public async Task<ActionResult<IEnumerable<File>>> FilesOfFolder( long id)
+        public async Task<ActionResult<IEnumerable<Models.File>>> FilesOfFolder( long id)
         {
-            List<File> FileList=new List<File>();
+            List<Models.File> FileList=new List<Models.File>();
             
             foreach (var item in _context.files.Where( t=> t.folderId == Convert.ToInt64(id)))
             {

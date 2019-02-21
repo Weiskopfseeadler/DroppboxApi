@@ -11,6 +11,7 @@ namespace DroppboxApi.Models
         public string typ{get;set;}
         public string path{get;set;}
         public int size{get;set;}
+
          [ForeignKey("Folder")]
         public long folderId{get;set;}
     }

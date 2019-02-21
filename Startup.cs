@@ -12,8 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using DroppboxApi.Models;
-
-
+using Microsoft.AspNetCore.Http.Features;
 
 namespace DroppboxApi
 {
@@ -44,6 +43,13 @@ namespace DroppboxApi
                         
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             System.Console.WriteLine("serend");
+
+
+                    services.AddMvc();
+            services.Configure<FormOptions>(x => {
+            x.ValueLengthLimit = int.MaxValue;
+            x.MultipartBodyLengthLimit = int.MaxValue; // In case of multipart
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

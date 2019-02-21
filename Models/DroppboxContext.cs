@@ -11,10 +11,10 @@ namespace DroppboxApi.Models
             : base(options)
         {
         }
-        public DbSet<Organization> organizations { get; set; }
-        public DbSet<File>         files         {get;set;}
-        public DbSet<User>         users         {get;  set;}
-        public DbSet<Folder>       folders       {get;set;}
+        public DbSet<Organization>            organizations           {get;set; }
+        public DbSet<Models.File>             files                   {get;set;}
+        public DbSet<User>                    users                   {get;set;}
+        public DbSet<Folder>                  folders                 {get;set;}
         public DbSet<User_Organisation>       user_organisation       {get;set;}
 
 
