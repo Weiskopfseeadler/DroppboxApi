@@ -12,7 +12,7 @@ namespace DroppboxApi.Models
         public long  folerId{get;set;}
 
         [ForeignKey("Organization")]
-        public long  folderId{get;set;}
+        public long  organizationId{get;set;}
 
         //public ICollection<File> Files {get;set;}
     }

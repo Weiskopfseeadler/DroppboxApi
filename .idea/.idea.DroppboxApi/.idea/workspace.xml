@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5893b77-fa71-4c84-82e0-c2b8e1bcc4c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DroppboxApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DroppboxApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User_Organisation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User_Organisation.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f5893b77-fa71-4c84-82e0-c2b8e1bcc4c5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,7 @@
       <workItem from="1550407369760" duration="1232000" />
       <workItem from="1550511492250" duration="2134000" />
       <workItem from="1550738746293" duration="141000" />
-      <workItem from="1550745624394" duration="533000" />
+      <workItem from="1550745624394" duration="1039000" />
     </task>
     <task id="LOCAL-00001" summary="Api fast fertig">
       <created>1550746005908</created>
@@ -223,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550746005908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Api fast fertig">
+      <created>1550746169103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550746169103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6228000" />
+    <option name="totallyTimeSpent" value="6734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
