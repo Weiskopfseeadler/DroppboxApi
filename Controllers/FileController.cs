@@ -66,12 +66,12 @@ namespace DroppboxApi.Controllers
                 Directory.CreateDirectory(path);
             }            
             path = Path.Combine(Path.Combine(Directory.GetCurrentDirectory(),"wwwroot"),file.FileName);
-            System.Console.WriteLine(path);
-          using (var stream = new FileStream(path, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
             
-            }
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+            
+                }
             
             Models.File f = new Models.File();
             f.name = file.Name;
