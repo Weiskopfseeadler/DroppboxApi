@@ -38,13 +38,14 @@ namespace DroppboxApi.Controllers
                 return NotFound();
             }
 
-            return User;
+            return User;    
         }
 
     
         [HttpPost("User")]
         public async Task<ActionResult<User>> PostUser(User User)
         {
+            System.Console.WriteLine(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
             System.Console.WriteLine(User);
             _context.users.Add(User);
             await _context.SaveChangesAsync();
